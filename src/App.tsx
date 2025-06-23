@@ -1,15 +1,12 @@
-import Header from "./components/Header";
-import { Button } from "@/components/ui/button";
-import {
-  Popover,
-  PopoverContent,
-  PopoverTrigger,
-} from "@/components/ui/popover";
-import { Menu } from "lucide-react";
+import Header from './components/Header';
+import Hero from './components/Hero';
 const App = () => {
   return (
-    <div>
+    <div className='relative isolate overflow-hidden'>
       <Header></Header>
+      <main>
+        <Hero></Hero>
+      </main>
     </div>
   );
 };

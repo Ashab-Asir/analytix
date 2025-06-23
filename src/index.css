@@ -136,3 +136,7 @@
     2xl:max-w-screen-xl
   }
 }
+
+@theme {
+  --font-display: "Poppins", "sans-serif";
+}
