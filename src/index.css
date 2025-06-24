@@ -164,6 +164,11 @@
   @apply text-muted-foreground
   md:text-xl
 }
+.img-cover{
+  @apply w-full
+  h-full
+  object-cover
+}
 }
 
 
