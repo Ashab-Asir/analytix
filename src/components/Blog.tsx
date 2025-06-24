@@ -1,10 +1,7 @@
-import React from 'react';
 import { blogData } from '@/constant';
 import {
   Card,
-  CardAction,
   CardContent,
-  CardDescription,
   CardFooter,
   CardHeader,
   CardTitle,

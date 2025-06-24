@@ -1,4 +1,3 @@
-import React from 'react';
 import { ctaData } from '@/constant';
 import { Button } from './ui/button';
 import { ctaBanner } from '@/assets';

@@ -1,4 +1,3 @@
-import React from 'react';
 import { MenuItem } from '@/types';
 import { Button } from './ui/button';
 import { Separator } from './ui/separator';

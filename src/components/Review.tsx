@@ -1,10 +1,7 @@
-import React from 'react';
 import { reviewData } from '@/constant';
 import {
   Card,
-  CardAction,
   CardContent,
-  CardDescription,
   CardFooter,
   CardHeader,
   CardTitle,

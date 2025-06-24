@@ -1,4 +1,4 @@
-import React, { JSX } from 'react';
+import { JSX } from 'react';
 type FeatureCardProps = {
   classes?: string;
   children: JSX.Element;

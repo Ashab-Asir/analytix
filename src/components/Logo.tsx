@@ -1,18 +1,26 @@
-import React from "react";
-
-import { logo, favicon } from "@/assets";
+import { logo, favicon } from '@/assets';
 
 type LogoProps = {
-  variant?: "default" | "icon";
+  variant?: 'default' | 'icon';
 };
-const Logo = ({ variant = "default" }: LogoProps) => {
+const Logo = ({ variant = 'default' }: LogoProps) => {
   return (
-    <a href="">
-      {variant === "default" && (
-        <img src={logo} alt="analytix logo" width={150} height={31}></img>
+    <a href=''>
+      {variant === 'default' && (
+        <img
+          src={logo}
+          alt='analytix logo'
+          width={150}
+          height={31}
+        ></img>
       )}
-      {variant === "icon" && (
-        <img src={favicon} alt="analytix logo" width={32} height={2}></img>
+      {variant === 'icon' && (
+        <img
+          src={favicon}
+          alt='analytix logo'
+          width={32}
+          height={2}
+        ></img>
       )}
     </a>
   );
