@@ -1,16 +1,8 @@
-import React from 'react';
 import { CirclePlay } from 'lucide-react';
-import { motion, Variants } from 'motion/react';
+import { motion } from 'motion/react';
 import { heroData } from '@/constant';
 import { Button } from './ui/button';
-import {
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from '@/components/ui/dialog';
+import { Dialog, DialogContent, DialogTrigger } from '@/components/ui/dialog';
 import { AspectRatio } from '@/components/ui/aspect-ratio';
 import ReactPlayer from 'react-player';
 import { heroBanner } from '@/assets';
