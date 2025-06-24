@@ -1,5 +1,6 @@
 import Blog from './components/Blog';
 import Brand from './components/Brand';
+import Cta from './components/Cta';
 import Features from './components/Features ';
 import Header from './components/Header';
 import Hero from './components/Hero';
@@ -18,6 +19,7 @@ const App = () => {
         <Overview></Overview>
         <Review></Review>
         <Blog></Blog>
+        <Cta></Cta>
       </main>
     </div>
   );
