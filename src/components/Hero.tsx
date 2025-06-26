@@ -34,7 +34,7 @@ const Hero = () => {
               <DialogContent className='p-0 overflow-hidden max-w-[640px]'>
                 <AspectRatio ratio={16 / 9}>
                   <ReactPlayer
-                    url='https://youtu.be/FGzo2Dm3Rh8?si=ADZIxMF0tsIRIqSE'
+                    url='https://youtu.be/YNifRtmf7zU?si=hN939XpOdUtb5kVM'
                     style={{
                       minWidth: '100%',
                       maxWidth: '100%',
